@@ -56,21 +56,6 @@
   --font-family-body: 'Inter', sans-serif;
   --font-family-mono: 'Geist Mono', 'Geist', monospace;
   
-  --font-size-display-lg: 48px;
-  --font-size-headline-lg: 32px;
-  --font-size-headline-lg-mobile: 24px;
-  --font-size-title-md: 20px;
-  --font-size-body-lg: 18px;
-  --font-size-body-md: 16px;
-  --font-size-label-sm: 12px;
-  
-  /* Spacing & Layout Variables */
-  --spacing-unit: 4px;
-  --spacing-gutter: 24px;
-  --spacing-margin-desktop: 64px;
-  --spacing-margin-mobile: 20px;
-  --spacing-container-max: 1280px;
-  
   /* Radii */
   --radius-sm: 0.125rem;
   --radius-default: 0.25rem;
@@ -79,6 +64,22 @@
   --radius-xl: 0.75rem;
   --radius-full: 9999px;
   
+  /* Font Sizes (from DESIGN.md typography tokens) */
+  --font-size-display-lg: 48px;
+  --font-size-headline-lg: 32px;
+  --font-size-headline-lg-mobile: 24px;
+  --font-size-title-md: 20px;
+  --font-size-body-lg: 18px;
+  --font-size-body-md: 16px;
+  --font-size-label-sm: 12px;
+  
+  /* Spacing & Layout (from DESIGN.md spacing tokens) */
+  --spacing-unit: 4px;
+  --spacing-gutter: 24px;
+  --spacing-margin-desktop: 64px;
+  --spacing-margin-mobile: 20px;
+  --spacing-container-max: 1280px;
+
   /* Heights & Durations */
   --header-height: 80px;
   --transition-speed: 0.3s;
