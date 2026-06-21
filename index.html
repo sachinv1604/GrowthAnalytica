@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GrowthAnalytica - The Definitive Business Breakdowns & Profiles</title>
+  <meta name="description" content="Detailed business breakdowns and insights into the world's most successful companies. Join 500k+ business minds analyzing unit economics, strategy, and pivots.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2310B981' stroke-width='2'%3E%3Cpath d='M3 3v18h18'/%3E%3Cpath d='M18.7 8l-5.1 5.2-2.8-2.7L7 14.3'/%3E%3C/svg%3E">
+  
+  <!-- Fonts: Hanken Grotesk, Inter, Geist, Geist Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,600;0,700;0,800;1,600&family=Inter:wght@400;500;600&family=Geist:wght@500;600&family=Geist+Mono:wght@500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="background-grid-overlay"></div>
+
+  <!-- Header Section -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <a href="#" class="logo" id="header-logo">
+        <span class="logo-text">Growth<span class="text-white">Analytica</span></span>
+      </a>
+      
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#case-studies" class="nav-link active" id="nav-link-case-studies">CASE STUDIES</a></li>
+          <li class="nav-item"><a href="#process" class="nav-link" id="nav-link-process">PROCESS</a></li>
+          <li class="nav-item"><a href="#methodology" class="nav-link" id="nav-link-methodology">METHODOLOGY</a></li>
+          <li class="nav-item"><a href="#philosophy" class="nav-link" id="nav-link-philosophy">PHILOSOPHY</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#subscribe" class="btn btn-primary btn-sm" id="header-subscribe-btn">SUBSCRIBE</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+          <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" y1="12" x2="20" y2="12"></line>
+            <line x1="4" y1="6" x2="20" y2="6"></line>
+            <line x1="4" y1="18" x2="20" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-wrapper">
+        <img src="/hero-bg.png" alt="Workspace backdrop" class="hero-bg-image" />
+        <div class="hero-bg-tint"></div>
+      </div>
+      
+      <div class="container hero-container">
+        <div class="hero-grid">
+          <!-- Hero Left Content -->
+          <div class="hero-content">
+            <div class="tag-label" id="hero-tag">
+              <span class="tag-icon">⚡</span> COMPANY PROFILE 01-24
+            </div>
+            <h1 class="display-lg hero-title">
+              The Definitive <span class="text-accent">Business Breakdown.</span>
+            </h1>
+            <p class="body-lg hero-description">
+              Detailed insights into the world's most successful companies. We break down the strategies, economics, and leadership moves that define market leaders.
+            </p>
+            <div class="hero-actions">
+              <a href="#case-studies" class="btn btn-primary" id="hero-view-profiles-btn">
+                <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                VIEW PROFILES
+              </a>
+              <a href="#archive" class="btn btn-secondary" id="hero-browse-archive-btn">BROWSE ARCHIVE</a>
+            </div>
+          </div>
+
+          <!-- Hero Right Accuracy Card -->
+          <div class="hero-visual">
+            <div class="accuracy-card" id="accuracy-card">
+              <div class="card-header-row">
+                <span class="card-label-text">ANALYSIS ACCURACY</span>
+                <span class="card-header-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 3v18h18"></path>
+                    <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"></path>
+                  </svg>
+                </span>
+              </div>
+              
+              <!-- Interactive Bar Chart -->
+              <div class="bar-chart" id="accuracy-chart">
+                <div class="bar-item" data-value="45%">
+                  <div class="bar-track">
+                    <div class="bar-fill" style="height: 0%;"></div>
+                  </div>
+                </div>
+                <div class="bar-item" data-value="65%">
+                  <div class="bar-track">
+                    <div class="bar-fill" style="height: 0%;"></div>
+                  </div>
+                </div>
+                <div class="bar-item" data-value="52%">
+                  <div class="bar-track">
+                    <div class="bar-fill" style="height: 0%;"></div>
+                  </div>
+                </div>
+                <div class="bar-item" data-value="94%">
+                  <div class="bar-track">
+                    <div class="bar-fill" style="height: 0%;"></div>
+                  </div>
+                </div>
+                <div class="bar-item" data-value="82%">
+                  <div class="bar-track">
+                    <div class="bar-fill" style="height: 0%;"></div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="card-footer-row">
+                <span class="card-footer-text">
+                  <svg class="verify-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                  96.4% Verified Data Sources
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Holistic Narratives Section -->
+    <section class="narratives-section" id="case-studies">
+      <div class="container">
+        <div class="narratives-header">
+          <div class="narratives-title-area">
+            <h2 class="headline-lg font-headline">Holistic Business Narratives</h2>
+            <p class="body-md text-muted narratives-subtitle">
+              We provide a 360-degree view of corporate evolution, from garage-stage origins to global market dominance.
+            </p>
+          </div>
+          <div class="narratives-link-area">
+            <a href="#methodology" class="arrow-link" id="our-approach-link">
+              OUR APPROACH 002
+              <svg class="link-arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="narratives-grid">
+          <!-- Card 1 -->
+          <div class="narratives-card" id="narratives-card-origin">
+            <div class="card-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="9" y1="3" x2="9" y2="21"></line>
+                <line x1="15" y1="3" x2="15" y2="21"></line>
+                <line x1="3" y1="9" x2="21" y2="9"></line>
+                <line x1="3" y1="15" x2="21" y2="15"></line>
+              </svg>
+            </div>
+            <h3 class="title-md card-title">Origin & Foundation</h3>
+            <p class="body-md text-muted card-description">
+              We trace the early signals and founder insights that sparked the initial product-market fit, revealing the DNA of the brand.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="narratives-card" id="narratives-card-pivots">
+            <div class="card-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3z"></path>
+                <path d="M6 21a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3v12a3 3 0 0 0 3 3z"></path>
+                <path d="M12 6a3 3 0 1 0 0 6 3 3 0 1 0 0-6z"></path>
+              </svg>
+            </div>
+            <h3 class="title-md card-title text-accent">Strategic Pivots</h3>
+            <p class="body-md text-muted card-description">
+              Detailed mapping of the critical decision points where strategy shifted to capture new markets or avoid disruption.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="narratives-card" id="narratives-card-status">
+            <div class="card-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="title-md card-title">Current Market Status</h3>
+            <p class="body-md text-muted card-description">
+              A real-time breakdown of current competitive advantages, moats, and the roadmap for the next phase of growth.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission-section" id="process">
+      <div class="container">
+        <div class="mission-grid">
+          <!-- iPad Visual Mockup -->
+          <div class="mission-visual">
+            <div class="ipad-device-wrapper">
+              <div class="ipad-bezel">
+                <div class="ipad-camera"></div>
+                <div class="ipad-screen">
+                  <img src="/ipad-mission.png" alt="Architectural perspective graphic" class="ipad-screen-image" />
+                  <div class="ipad-screen-tint"></div>
+                  <div class="ipad-badge" id="ipad-type-badge">
+                    FILE_TYPE: CASE_STUDY
+                  </div>
+                </div>
+                <div class="ipad-home-indicator"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mission Text Content -->
+          <div class="mission-content">
+            <div class="section-tag" id="mission-tag">OUR MISSION</div>
+            <h2 class="headline-lg mission-title">
+              Every Business Story Deserves a Detailed Breakdown.
+            </h2>
+            <p class="body-md mission-paragraph">
+              GrowthAnalytica bridges the gap between news headlines and executive strategy. We believe that understanding a company's past is the best way to predict its future.
+            </p>
+            <p class="body-md mission-paragraph">
+              Our team spent years in venture capital and corporate strategy. Now, we use that expertise to build <em>Detailed Info</em> profiles that help the next generation of leaders build better businesses.
+            </p>
+            
+            <!-- Statistics Row -->
+            <div class="stats-row">
+              <div class="stat-col" id="stat-col-profiles">
+                <div class="stat-number">200+</div>
+                <div class="stat-label">COMPANY PROFILES</div>
+              </div>
+              <div class="stat-col" id="stat-col-minds">
+                <div class="stat-number">500k+</div>
+                <div class="stat-label">BUSINESS MINDS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comprehensive Coverage Section -->
+    <section class="coverage-section" id="methodology">
+      <div class="container">
+        <div class="coverage-header">
+          <h2 class="headline-lg font-headline text-center">Comprehensive Coverage</h2>
+          <p class="body-md text-muted text-center coverage-subtitle">
+            What's inside every GrowthAnalytica business breakdown.
+          </p>
+        </div>
+
+        <div class="coverage-grid">
+          <!-- Card 1 -->
+          <div class="coverage-card" id="coverage-card-1">
+            <div class="card-top">
+              <div class="segment-label">SEGMENT 01</div>
+              <h3 class="title-md segment-title">Founding Story</h3>
+              <p class="body-md text-muted segment-text">
+                The core problems, the initial prototype, and the first 1,000 customers.
+              </p>
+            </div>
+            <div class="card-bottom">
+              <svg class="segment-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="coverage-card" id="coverage-card-2">
+            <div class="card-top">
+              <div class="segment-label">SEGMENT 02</div>
+              <h3 class="title-md segment-title">Business Model</h3>
+              <p class="body-md text-muted segment-text">
+                Unit economics, pricing power, and distribution channel analysis.
+              </p>
+            </div>
+            <div class="card-bottom">
+              <svg class="segment-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 21h18"></path>
+                <path d="M3 10h18"></path>
+                <path d="M5 6h14"></path>
+                <path d="M4 10v11"></path>
+                <path d="M20 10v11"></path>
+                <path d="M8 14v3"></path>
+                <path d="M12 14v3"></path>
+                <path d="M16 14v3"></path>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="coverage-card" id="coverage-card-3">
+            <div class="card-top">
+              <div class="segment-label">SEGMENT 03</div>
+              <h3 class="title-md segment-title">Growth Inflections</h3>
+              <p class="body-md text-muted segment-text">
+                The precise moments and strategies that led to exponential scale.
+              </p>
+            </div>
+            <div class="card-bottom">
+              <svg class="segment-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                <polyline points="17 6 23 6 23 12"></polyline>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Card 4 (Highlighted) -->
+          <div class="coverage-card highlighted" id="coverage-card-4">
+            <div class="card-top">
+              <div class="segment-label">SEGMENT 04</div>
+              <h3 class="title-md segment-title">Financial Stats</h3>
+              <p class="body-md text-muted segment-text">
+                Revenue trends, profit margins, and valuation benchmarks over time.
+              </p>
+            </div>
+            <div class="card-bottom">
+              <svg class="segment-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2" ry="2"></rect>
+                <line x1="12" y1="4" x2="12" y2="20"></line>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Builders Insights Banner Section -->
+    <section class="builders-banner-section">
+      <div class="container">
+        <div class="builders-banner" id="builders-banner">
+          <div class="builders-content">
+            <h2 class="display-sm builders-title">Business Insights for Builders.</h2>
+            <p class="body-md builders-description">
+              Join a community of CEOs, investors, and product leads who use our deep-dives as a primary source of business education. Stay informed on the mechanics of success.
+            </p>
+            <div class="builders-features">
+              <div class="feature-item" id="feature-checked-data">
+                <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                FACT-CHECKED DATA
+              </div>
+              <div class="feature-item" id="feature-actionable-insights">
+                <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+                ACTIONABLE INSIGHTS
+              </div>
+              <div class="feature-item" id="feature-leadership-frameworks">
+                <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                </svg>
+                LEADERSHIP FRAMEWORKS
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Profiles Section -->
+    <section class="upcoming-section" id="philosophy">
+      <div class="container">
+        <div class="upcoming-header">
+          <h2 class="headline-lg font-headline">Upcoming Profiles</h2>
+          <span class="queue-label">PUBLISHING_QUEUE</span>
+        </div>
+
+        <div class="upcoming-grid">
+          <!-- Card 1 -->
+          <div class="upcoming-card" id="upcoming-card-spacex">
+            <span class="upcoming-label">SPACE_X</span>
+            <h3 class="title-md upcoming-title">The Efficiency Pivot</h3>
+          </div>
+          <!-- Card 2 -->
+          <div class="upcoming-card" id="upcoming-card-stripe">
+            <span class="upcoming-label">STRIPE</span>
+            <h3 class="title-md upcoming-title">Infrastructure Moats</h3>
+          </div>
+          <!-- Card 3 -->
+          <div class="upcoming-card" id="upcoming-card-airbnb">
+            <span class="upcoming-label">AIRBNB</span>
+            <h3 class="title-md upcoming-title">Design as a Lever</h3>
+          </div>
+          <!-- Card 4 -->
+          <div class="upcoming-card" id="upcoming-card-nvidia">
+            <span class="upcoming-label">NVIDIA</span>
+            <h3 class="title-md upcoming-title">Platform Hegemony</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter CTA Section -->
+    <section class="newsletter-section" id="subscribe">
+      <div class="container">
+        <div class="newsletter-card" id="newsletter-cta">
+          <h2 class="headline-lg newsletter-title text-center">Learn from the World's Best.</h2>
+          <p class="body-md text-muted text-center newsletter-subtitle">
+            Subscribe to get a masterclass in business strategy every Sunday. Join 500,000+ professionals learning from the definitive business breakdowns.
+          </p>
+          
+          <form class="newsletter-form" id="newsletter-form" action="#" method="POST">
+            <div class="input-group">
+              <input type="email" class="newsletter-input" id="newsletter-email" name="email" placeholder="Enter your business email" required aria-label="Business Email">
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit" id="newsletter-submit-btn">
+              SUBSCRIBE NOW
+              <svg class="btn-submit-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+            </button>
+          </form>
+          
+          <div class="newsletter-footer-label">NEW COMPANY PROFILE EVERY WEEK</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <span class="logo-text">Growth<span class="text-white">Analytica</span></span>
+          </a>
+          <p class="body-md text-muted footer-brand-description">
+            The definitive source for detailed business breakdowns and company profiles.
+          </p>
+        </div>
+
+        <div class="footer-links-grid">
+          <!-- Column 1 -->
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">RESOURCES</h4>
+            <ul class="footer-links-list">
+              <li><a href="#case-studies" class="footer-link">Case Studies</a></li>
+              <li><a href="#process" class="footer-link">Company Profiles</a></li>
+              <li><a href="#archive" class="footer-link">Research Archive</a></li>
+            </ul>
+          </div>
+          <!-- Column 2 -->
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">LEGAL</h4>
+            <ul class="footer-links-list">
+              <li><a href="#privacy" class="footer-link">Privacy Policy</a></li>
+              <li><a href="#terms" class="footer-link">Terms of Service</a></li>
+            </ul>
+          </div>
+          <!-- Column 3 -->
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">CONTACT</h4>
+            <ul class="footer-links-list">
+              <li><a href="#press" class="footer-link">Press Inquiries</a></li>
+              <li><a href="#support" class="footer-link">Contact Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <span class="footer-copy">© 2026 GrowthAnalytica Business Profiles. All rights reserved.</span>
+        <div class="footer-socials">
+          <a href="#" class="social-link" aria-label="Documents">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+          </a>
+          <a href="#" class="social-link" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Website">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
